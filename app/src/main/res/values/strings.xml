@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Shift Timer</string>
+    <string name="empCodeText">Employee Code</string>
+    <string name="empTagNumberText">Employee Tag Number</string>
+    <string name="connectButton">Connect</string>
+    <string name="exitButton">Exit</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="missing_login_data">Missing Login Data</string>
+</resources>

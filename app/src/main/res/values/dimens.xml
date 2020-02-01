@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- default dpi -->
+    <dimen name="spacing_1x">5dp</dimen>
+    <dimen name="spacing_2x">10dp</dimen>
+    <dimen name="spacing_3x">15dp</dimen>
+    <dimen name="spacing_4x">20dp</dimen>
+    <dimen name="spacing_5x">25dp</dimen>
+    <dimen name="spacing_6x">30dp</dimen>
+    <dimen name="spacing_7x">35dp</dimen>
+    <dimen name="spacing_8x">40dp</dimen>
+    <dimen name="spacing_9x">45dp</dimen>
+    <dimen name="spacing_10x">50dp</dimen>
+    <dimen name="spacing_11x">55dp</dimen>
+    <dimen name="spacing_12x">60dp</dimen>
+
+    <!-- default text size -->
+    <dimen name="text_size_1.0x">8sp</dimen>
+    <dimen name="text_size_1.5x">12sp</dimen>
+    <dimen name="text_size_1.75x">14sp</dimen>
+    <dimen name="text_size_2.0x">16sp</dimen>
+    <dimen name="text_size_2.25x">18sp</dimen>
+    <dimen name="text_size_2.5x">20sp</dimen>
+    <dimen name="text_size_3.0x">24sp</dimen>
+    <dimen name="text_size_3.5x">28sp</dimen>
+
+</resources>

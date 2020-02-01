@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackgound">#EDE7F6</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Mail Activity colors -->
+    <!--color name="colorLoginHint">#b388ff</color-->
+    <color name="colorLoginHint">#FFFFFF</color>
+    <color name="colorLoginText">#311b92</color>
+    <color name="colorButtonBackground">#d1c4e9</color>
+</resources>

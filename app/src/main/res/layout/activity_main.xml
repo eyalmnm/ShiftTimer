@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_10x"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_timelapse_purple_500_48dp" />
+
+    <LinearLayout
+        android:id="@+id/formLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/spacing_12x"
+        android:layout_marginTop="@dimen/spacing_6x"
+        android:layout_marginEnd="@dimen/spacing_12x"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/empCodeEditText"
+            style="@style/loginTextEditStile"
+            android:hint="@string/empCodeText"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/empTagNumberEditText"
+            style="@style/loginTextEditStile"
+            android:layout_marginTop="@dimen/spacing_5x"
+            android:layout_marginBottom="@dimen/spacing_5x"
+            android:hint="@string/empTagNumberText"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/empPasswordEditText"
+            style="@style/loginTextEditStile"
+            android:hint="@string/empTagNumberText"
+            android:imeOptions="actionSend"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/formLayout"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/spacing_12x"
+        android:layout_marginTop="@dimen/spacing_6x"
+        android:layout_marginEnd="@dimen/spacing_12x"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/spacing_2x"
+        android:paddingEnd="@dimen/spacing_2x"
+        android:weightSum="3">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/connectButton"
+            style="@style/loginButtonsStyle"
+            android:text="@string/connectButton" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/exitButton"
+            style="@style/loginButtonsStyle"
+            android:text="@string/exitButton" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonsLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_6x"
+        android:text="@string/remember_me"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
